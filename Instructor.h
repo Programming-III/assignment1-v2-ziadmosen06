@@ -4,7 +4,14 @@
 #include "Person.h"
 using namespace std;
 //#write Instructor class here
-
+class Instructor {
+    public:
+    string department;
+    int experienceYears;
+    private:
+    Instructor(string department , int experience);
+    void display();
+};
 
 
 
