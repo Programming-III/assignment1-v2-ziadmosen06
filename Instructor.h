@@ -11,6 +11,10 @@ class Instructor : public Person{
     private:
     Instructor(string department , int experience);
     void display();
+    void getDepartment();
+    void setDepartment(string department);
+    void setExperienceYears(int experienceYears);
+
 };
 
 
